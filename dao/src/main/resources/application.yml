@@ -1,0 +1,9 @@
+
+spring:
+  # \u914D\u7F6E\u6570\u636E\u6E90\u4FE1\u606F
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.50.10:3306/mybatis_plus?serverTimezone=GMT%2B8&characterEncoding=utf-8&useSSL=false
+    username: root
+    password: root
