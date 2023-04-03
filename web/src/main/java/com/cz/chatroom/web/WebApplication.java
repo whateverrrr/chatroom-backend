@@ -1,15 +1,13 @@
-package com.cz.dao;
+package com.cz.chatroom.web;
 
-import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-@MapperScan("com.cz.dao.mapper")
-public class DaoApplication {
+public class WebApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(DaoApplication.class, args);
+        SpringApplication.run(WebApplication.class, args);
     }
 
 }
